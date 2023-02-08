@@ -1,0 +1,256 @@
+file:: [OnJava8_基础卷.pdf](file://D:/documents/Zotero/storage/storage/CQ942Z7K/OnJava8_基础卷.pdf)
+file-path:: file://D:/documents/Zotero/storage/storage/CQ942Z7K/OnJava8_基础卷.pdf
+
+- 基于Java的3个长期支持版（Java 8、11、17）
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 63e38e73-9db6-4bce-9d62-0cc96bb73c46
+- Java 8最大的改进是引入了函数式编程的一些长处，简单来说包括lambda表达式、流（stream ）,以及“函数式基本类型M （functional primitive ）等
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63e38e9c-31d6-4fbf-b74b-2a794462baa7
+- 由于受制于向后兼容性.Java无法彻底翻新为一门函数式编程语言
+  ls-type:: annotation
+  hl-page:: 5
+  hl-color:: yellow
+  id:: 63e38eb0-eb48-4966-a15b-ab07718c3d6e
+- 其顶部的注释都会包含一个特殊标签u|NewFeature）n
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: red
+  id:: 63e38ec8-eb50-4b19-89cb-c972dac6e0b2
+- Gradle构建时会自动排除带有“{NewFeature]”标签的示例
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: red
+  id:: 63e38ed3-b229-451f-a794-7c3048c1407c
+- 本书使用了自动化的构建过程，同样的自动化过程还有解压、编译以及测试所有示例代码。我使用Python 3编写了大fil的应用程序来处理所有的自动化过程。
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: red
+  id:: 63e38ee5-0d8f-43ef-a9fa-4795e994f181
+- 我个人认为，把所有内容都封装为对象不仅是一种负担，而且还会将许多程序设计推向错误的方向。然而不可否认的是，在一些情况下对象依然十分有用。所以，将一切都封装为对象（尤其是深入到最底层的时候）是一种设计失误，但完全抛弃对象同样太过极端。
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: red
+  id:: 63e38f7b-fe63-4112-9535-0f62e007b4cd
+- 我听说下一次革命将促生一个由足够多的人和连接组合而成的全球化的大脑。 Java会不会成为这种革命所需的工具之一呢？ 一切皆有可能。
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: green
+  id:: 63e38f8f-defa-4eb8-aa53-be559cab2b1a
+- 诺贝尔经济学奖得主Joseph Stiglitz有一句生活哲言十分应景,也叫作“承诺升级理论”(The Theory of Escalating Commitment):持续犯借的代价由别人承担，而承认错误的代价由你自己来承担。
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 63e38fb2-f64c-4db3-b8b4-94b1d4a48e2e
+- Java-直严格遵守自己的向后兼容性承诺
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 63e38fdf-2ec1-4ad7-852b-d7d239bd0c30
+- 区分清楚短期支持(Short-Term・Support, STS)版本和长期支持(Long-Term-Support, LTS)版本。Java8、11、17都是LTS版本，其他版本则是支持周期只有6个月的STS版本
+  ls-type:: annotation
+  hl-page:: 12
+  hl-color:: yellow
+  id:: 63e38fed-98c9-4060-8314-2fff1467226b
+- 归根结底，Java在桌面领域从未真正强大过，甚至从未触及设计师的雄心壮志
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 63e39002-15b5-4f6a-850c-65c213b623b7
+- Java幵发工具集（Java Development Kit, JDK ）
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 63e39016-043d-4c9d-aa28-cc1bf5d09d8e
+- 面向对象编程(Object-Oriented Programming, OOP)
+  ls-type:: annotation
+  hl-page:: 28
+  hl-color:: yellow
+  id:: 63e39346-9081-4b24-a36c-2b6f123cc6e5
+- 这一特点与现实中的事物极为相似，它们都具有各自的行为和特征
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: green
+  id:: 63e3938a-bc07-4752-ae4e-f4150a44c8ab
+  hl-stamp:: 1675858829822
+- 对象具有状态、行为及标识
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 63e393d7-7775-4c94-9b8f-04b0dad16b86
+- 那些状态不同但结构相同的对象汇聚在一起，就变成了 “同一类对象” （classes of objects）,这就是关键字class的由来
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: yellow
+  id:: 63e39419-ad74-4ef2-84ce-c3f254e543aa
+- 将类型（type）定义为接口，而类（class ）则是接口的具体实现
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: yellow
+  id:: 63e39443-e4e0-4d88-9ce4-1cb71ee9355e
+- 统一建模语言（Unified Modeling Language, UML）
+  ls-type:: annotation
+  hl-page:: 32
+  hl-color:: yellow
+  id:: 63e39485-06b3-4130-9beb-525ad80a9eb1
+- 高内聚性
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: green
+  id:: 63e394cd-0999-4280-8d4d-a16414a980d3
+  hl-stamp:: 1675859152034
+- 访问修饰符
+  ls-type:: annotation
+  hl-page:: 34
+  hl-color:: yellow
+  id:: 63e3959d-3184-4549-9a64-02c34874ffef
+- 向上转型
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 63e39903-caa1-4184-8264-9966a9793344
+- 为了实现后期绑定，Java使用了一些极为特殊的代码以代替直接的函数调用，这段代码使用存储在对象中的信息来计算方法体的地址(第9章会详细地描述这个过程)
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: red
+  id:: 63e39979-ac4f-44e7-a382-36deaa9bfc8e
+- 单根层次结构有利于实现垃圾收集器（garbage collector）
+  ls-type:: annotation
+  hl-page:: 44
+  hl-color:: yellow
+  id:: 63e399ec-9c0b-498d-907b-cef60ab819f4
+- 向下转型
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 63e39a4d-5adf-4538-955d-05d51b343925
+- 自动装箱
+  ls-type:: annotation
+  hl-page:: 45
+  hl-color:: yellow
+  id:: 63e39a6b-aa20-4b57-90b4-4d4d5f6f1271
+- 参数化类型
+  ls-type:: annotation
+  hl-page:: 46
+  hl-color:: yellow
+  id:: 63e39a9d-45de-45d3-b764-83fac969199c
+- 内存泄漏
+  ls-type:: annotation
+  hl-page:: 48
+  hl-color:: yellow
+  id:: 63e39b4f-4e02-47d5-8b32-bdced2242063
+  hl-stamp:: 1675860823239
+- 始终在创建引用时就进行初始化
+  ls-type:: annotation
+  hl-page:: 57
+  hl-color:: yellow
+  id:: 63e39fed-33e8-40cc-b035-0517b4804311
+- 5种数据存储方式
+  ls-type:: annotation
+  hl-page:: 58
+  hl-color:: yellow
+  id:: 63e3a036-36a7-46a3-90c1-a95cb0123e69
+- 寄存器（register）
+  ls-type:: annotation
+  hl-page:: 58
+  hl-color:: yellow
+  id:: 63e3a03f-9eea-4bb0-bc47-301a23301d18
+- 栈（stack）
+  ls-type:: annotation
+  hl-page:: 58
+  hl-color:: yellow
+  id:: 63e3a046-2608-4468-8199-6e093873a393
+- 堆(heap )
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 63e3a063-6b19-46ec-9906-ead4e4726282
+- 常量存储(constant storage)
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 63e3a074-50ef-47d4-8032-7cf8e3f7bbc3
+- 非RAM存储(non-RAM storage )
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 63e3a091-cc22-4d99-a43f-d55120030723
+- 持久化对象
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 63e3a0e9-56ec-4aa6-a954-e0633d9e1366
+- 包装类可以将基本类型呈现为位于堆上的非原始对象
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: yellow
+  id:: 63e3a140-2c66-4f87-8a76-541a76b1d61c
+- 基本类型
+  ls-type:: annotation
+  hl-page:: 59
+  hl-color:: yellow
+  id:: 63e3a14d-cbca-4e4d-9a7e-7509d3524531
+- 高精度数字
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: yellow
+  id:: 63e3a196-4d8b-4a3f-8ee5-2af97100d908
+- Biginteger和BigDecima
+  ls-type:: annotation
+  hl-page:: 60
+  hl-color:: yellow
+  id:: 63e3a1b0-be17-4003-8711-23943d793c37
+- 作用域（scope ）
+  ls-type:: annotation
+  hl-page:: 62
+  hl-color:: yellow
+  id:: 63e3a201-d5ce-406c-979e-53ad3f165619
+- 方法名和参数列表共同构成了方法的“签名”(signature ),方法签名即该方法的唯一标识符
+  ls-type:: annotation
+  hl-page:: 66
+  hl-color:: yellow
+  id:: 63e3c200-f649-49e6-8164-a1c9a24ba2af
+- 一股情况下，传递对象实际上就是传递对象的引用
+  ls-type:: annotation
+  hl-page:: 67
+  hl-color:: red
+  id:: 63e3c253-33c9-430c-9b05-1bccfbcc7691
+- 使用反转的URL来定义命名空间是一种 全新的尝试，而在此之前没有其他语言使用过此方案。
+  ls-type:: annotation
+  hl-page:: 68
+  hl-color:: red
+  id:: 63e3c2c5-06f5-42b4-93b0-be34a9d7e8e2
+- 许多编程风格指南会明确指出，每一个用到的类都应该被单独导入
+  ls-type:: annotation
+  hl-page:: 70
+  hl-color:: yellow
+  id:: 63e3c312-d1c0-4ead-b731-0ffbc9e2dd74
+- static字段是基于类创建的，非static字段则是基于对象创建的
+  ls-type:: annotation
+  hl-page:: 71
+  hl-color:: yellow
+  id:: 63e3c377-4b88-49b6-98cf-10946fd8a35e
+- 所有的Java代码文件都默认导入了 java.lan
+  ls-type:: annotation
+  hl-page:: 72
+  hl-color:: yellow
+  id:: 63e3c3bb-1dc1-447a-8a61-2c0e72f2a0d9
+- 文件中必须存在一个与该文件同名的类（如果你没有这么做，则编译器会报错）
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: yellow
+  id:: 63e3c3e9-8723-4b6b-8f79-ff033b2b3224
+- Java的重要资产之一就是内容极为丰富的标准库
+  ls-type:: annotation
+  hl-page:: 73
+  hl-color:: yellow
+  id:: 63e3c414-76da-47ea-be48-e2b55799c907
+- 驼峰式命名法
+  ls-type:: annotation
+  hl-page:: 75
+  hl-color:: yellow
+  id:: 63e3c52a-cf2f-4b46-b01f-3b7722ca6c51
